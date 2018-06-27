@@ -1,0 +1,56 @@
+body {
+	font-family:Helvetica, Arial, sans-serif;
+	font-size:12px;
+	background:lightsteelblue;
+	color:white;
+	display:flex;
+	flex-flow:row wrap;
+	justify-content:space-around;
+}
+
+#column1 {
+	float:left;
+}
+
+#column2 {
+	float:left;
+}
+
+#column3 {
+	float:right;
+}
+
+label, input, select, textarea {
+	margin-left:20px;
+	margin-right:20px;
+	width:200px;
+}
+
+label {
+	font-size:10px;
+	text-transform:uppercase;
+}
+
+input, select, textarea {
+	margin-top:5px;
+	margin-bottom:20px;
+	padding:5px;
+	background:lightsteelblue;
+	color:white;
+	outline:1px solid white;
+	transition:background 2s;
+}
+
+textarea {
+	height:100px;
+}
+
+input:focus, select:focus, textarea:focus {
+	background:silver;
+	outline:1px solid gray;
+}
+
+::placeholder {
+	color:gray;
+	font-style:italic;
+}

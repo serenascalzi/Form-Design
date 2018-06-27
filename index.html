@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Form Design</title>
+	<link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+	<form>
+		<div id="column1">
+			<label for="firstname">First Name</label><br />
+			<input type="text" name="firstname" placeholder="Jane" /><br />
+			<label for="lastname">Last Name</label><br />
+			<input type="text" name="lastname" placeholder="Doe" /><br />
+			<label for="email">Email Address</label><br />
+			<input type="email" name="email" placeholder="janedoe@email.com" /><br />
+			<label for="country">Country</label><br />
+			<select name="country" size="1">
+				<option value="" selected>Choose a country</option>
+				<option value="us">United States</option>
+				<option value="canada">Canada</option>
+				<option value="mexico">Mexico</option>
+			</select><br />
+			<label for="biography">Biography</label><br />
+			<textarea name="biography"></textarea>
+		</div>
+		<div id="column2">
+			<label for="phone">Phone Number</label><br />
+			<input type="tel" name="phone" placeholder="+351 999 9999" /><br />
+			<label for="affiliations">Affiliations</label><br />
+			<textarea name="affiliations"></textarea><br />
+			<label for="occupation">Occupation</label><br />
+			<select name="occupation" size="1">
+				<option value="" selected>Choose an occupation</option>
+				<option value="webdeveloper">Web Developer</option>
+				<option value="graphicdesigner">Graphic Designer</option>
+				<option value="photographer">Photographer</option>
+			</select><br />
+			<label for="catname">Cat's Name</label><br />
+			<input type="text" name="catname" placeholder="Kitty" /><br />
+			<label for="gadget">Favorite Gadget</label><br />
+			<input type="text" name="gadget" placeholder="Annoy-a-tron" />
+		</div>
+		<div id="column3">
+			<label for="talent">Type of Talent</label><br />
+			<select name="talent" size="1">
+				<option value="" selected>Choose a talent</option>
+				<option value="development">Development</option>
+				<option value="design">Design</option>
+				<option value="photography">Photography</option>
+			</select><br />
+			<label for="drink">Favorite Drink</label><br />
+			<input type="text" name="drink" placeholder="Green Tea" /><br />
+			<label for="power">Special Power</label><br />
+			<input type="text" name="power" placeholder="Anti-gravity" /><br />
+			<label for="weapon">Weapon of Choice</label><br />
+			<input type="text" name="weapon" placeholder="Lightsaber" /><br />
+			<label for="comments">Comments</label><br />
+			<textarea name="comments"></textarea>
+		</div>
+	</form>
+</body>
+</html>
